@@ -36,8 +36,8 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-
   background: url(/assets/images/bg.jpg) no-repeat center center;
+  
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
