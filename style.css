@@ -23,7 +23,7 @@ body {
 .navbar a {
   font-size: 150%;
   font-weight: 200;
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -38,18 +38,19 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #31b0d5; /*background color to blue*/
+  background: url('/assets/images/bg.jpg') no-repeat center center;
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
   flex-direction: column;
 }
 
+
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
   font-size: 2em;
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 150px;
 }
@@ -79,7 +80,7 @@ body {
 
 .social {
   font-size: 2em;
-  color: white;
+  color: black;
   padding: 20px;
 }
 
@@ -154,7 +155,7 @@ h2 {
 .card {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #31b0d5;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   margin-bottom: 30px;
@@ -162,7 +163,7 @@ h2 {
 
 .card-header {
   padding: 0.75rem 1.25rem;
-  background-color: white;
+  background-color: #31b0d5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -176,7 +177,7 @@ h2 {
 h4 {
   margin: 0;
   font-weight: 400;
-  color: grey;
+  color:black;
 }
 
 .job-title {
@@ -223,7 +224,7 @@ h4 {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: white;
+  color: black;
   background: #31b0d5;
   list-style: none;
   cursor: default;
@@ -256,6 +257,7 @@ h4 {
 }
 
 .contact textarea {
+  
   height: 150px;
   resize: none;
 }
